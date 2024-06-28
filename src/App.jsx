@@ -9,6 +9,10 @@ import Home from './Pages/Home.jsx'
 import State from './Pages/State.jsx'
 import Effect from './Pages/Effect.jsx'
 import Ref from  './Pages/Ref.jsx'
+import Context from './Pages/Context.jsx'
+import Reducer from './Pages/Reducer.jsx'
+import Callback from './Pages/Callback.jsx'
+import Memo from './Pages/Memo.jsx'
 
 function App() {
 
@@ -20,6 +24,10 @@ function App() {
           <Route path='/useState' element={<State/>} />
           <Route path='/useEffect' element={<Effect/>} />
           <Route path='/useRef' element={<Ref/>} />  
+          <Route path='/useContext' element={<Context/>} /> 
+          <Route path='/useReducer' element={<Reducer/>} /> 
+          <Route path='/useCallback' element={<Callback/>} /> 
+          <Route path='/useMemo' element={<Memo/>} /> 
         </Route>
       </Routes>
 
