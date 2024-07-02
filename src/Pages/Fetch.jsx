@@ -1,11 +1,12 @@
-const Effect = () => {
+
+const Fetch = () => {
 
     return (
 
       <h1 className="text-3xl font-bold underline">
-        useEffect Page
+        Fetch Data Page
       </h1>
     )
 }
 
-export default Effect;
+export default Fetch;

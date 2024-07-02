@@ -60,16 +60,16 @@ const Navbar = () => {
     {id: 1, page: 'useState', link: '/useState'},
     {id: 2, page: 'useEffect', link: '/useEffect'},
     {id: 3, page: 'useRef', link: '/useRef'},
-    {id: 3, page: 'useContext', link: '/useContext'},
-    {id: 3, page: 'useReducer', link: '/useReducer'},
-    {id: 3, page: 'useCallback', link: '/useCallback'},
-    {id: 3, page: 'useMemo', link: '/useMemo'},
+    {id: 4, page: 'useContext', link: '/useContext'},
+    {id: 5, page: 'useReducer', link: '/useReducer'},
+    {id: 6, page: 'useCallback', link: '/useCallback'},
+    {id: 7, page: 'useMemo', link: '/useMemo'},
   ]
 
   return (
     <>
-
-      <nav className="bg-gray-100 border-gray-300">
+      {/* border-gray-300 */}
+      <nav className="bg-gray-100 border-gray-300 ">
 
         {/* Desktop Navigation  */}
         <div className="flex items-center justify-between mx-auto p-4">
@@ -83,6 +83,10 @@ const Navbar = () => {
 
           <li className={styleItem}>
             <Submenu menuitems={hooksmenu} popmenu={popmenu[0]}/>
+          </li>
+
+          <li className={styleItem}>
+            <NavLink to='/fetch'> Fetching </NavLink>
           </li>
 
           <li className={styleItem}>
@@ -109,6 +113,10 @@ const Navbar = () => {
 
           <li className={styleItem}>
             <Submenu menuitems={hooksmenu} popmenu={popmenu[0]}/>
+          </li>
+
+          <li className={styleItem}>
+            <NavLink to='/fetch'> Fetching </NavLink>
           </li>
 
           <li className={styleItem}>

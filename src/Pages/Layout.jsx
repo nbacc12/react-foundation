@@ -12,7 +12,7 @@ const Layout = () => {
         <Outlet />
 
         <footer className="flex justify-center p-4 bg-gray-100 border-gray-300">
-            Copyright © React Foundation
+            Copyright © 2024 React Foundations
         </footer>
         
         
