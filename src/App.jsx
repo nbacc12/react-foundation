@@ -7,12 +7,14 @@ import { Routes, Route } from 'react-router-dom'
 import Layout from './Pages/Layout.jsx'
 import Home from './Pages/Home.jsx'
 import State from './Pages/State.jsx'
-import Effect from './Pages/Effect.jsx'
+import Effect from './Pages/Effect/Effect_page.jsx'
 import Ref from  './Pages/Ref.jsx'
 import Context from './Pages/Context.jsx'
 import Reducer from './Pages/Reducer.jsx'
 import Callback from './Pages/Callback.jsx'
 import Memo from './Pages/Memo.jsx'
+
+import Fetch from './Pages/Fetch.jsx'
 
 function App() {
 
@@ -28,6 +30,7 @@ function App() {
           <Route path='/useReducer' element={<Reducer/>} /> 
           <Route path='/useCallback' element={<Callback/>} /> 
           <Route path='/useMemo' element={<Memo/>} /> 
+          <Route path='/fetch' element={<Fetch />} /> 
         </Route>
       </Routes>
 
