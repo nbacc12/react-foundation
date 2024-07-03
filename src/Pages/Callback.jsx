@@ -32,10 +32,10 @@ const Callback = () => {
 
         <Headerpagetitle title={'useCallback Page'}/>
 
-        <p> 
+        <article className="ml-4 pb-4"> 
           The 'useCallback' hooks returns a memoized function. Only runs when dependents change.
           By memoizing a function, you ensure the function remains the same and does not change unnecessarily.
-        </p>
+        </article>
 
         <div>
           <p>{`Text: ${text}`}</p>

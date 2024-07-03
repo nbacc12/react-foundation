@@ -42,7 +42,7 @@ const Memo = () => {
 
         <Headerpagetitle title={'useMemo Page'}/>
 
-        <article> 
+        <article className="ml-4 pb-4"> 
           The 'useMemo' hook can store the result of a function call and reuse it when the dependencies of that function haven't changed, 
           rather than recalculating the value on every render.
         </article>
