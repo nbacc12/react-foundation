@@ -23,12 +23,6 @@ const Memo = () => {
     setText("New Text");
   }
 
-  //this function will render when 'Set Text' button is clicked.
-  // const complexCalc = () => {
-  //  console.log('Calculating sum....')
-  //   return a + b;
-  // }
-
   //This function will not re-render when 'set text' button is clicked as its memoized
   const complexCalc = useMemo(() => {
     console.log('Calculating sum....');
