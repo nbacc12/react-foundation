@@ -1,5 +1,5 @@
 # react-foundation
-This project covers fundamentals features such as react hooks for a React-based app.  The project utilizes tailwind css.
+This project covers fundamentals features such as react hooks for a React-based app.  The project utilizes tailwind css & headless ui. 
 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

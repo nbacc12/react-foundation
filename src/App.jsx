@@ -14,7 +14,7 @@ import Reducer from './Pages/Reducer.jsx'
 import Callback from './Pages/Callback.jsx'
 import Memo from './Pages/Memo.jsx'
 
-import Fetch from './Pages/Fetch.jsx'
+import Fetch from './Pages/Fetch/Fetch_page.jsx'
 
 function App() {
 

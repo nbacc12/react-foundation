@@ -1,9 +1,11 @@
+/* Home Page */
+
 const Home = () => {
 
     return (
 
       <h1 className="text-3xl font-bold underline">
-        Hello world!
+        Learn Basics of React
       </h1>
     )
 }
