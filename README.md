@@ -10,21 +10,21 @@ This project covers the fundamental react features such as hooks & data fetching
 
 ## Getting Started
 
-1) Clone this repository using:
-
-```bash
-https://github.com/nbacc12/react-foundation.git
-
-```
+1) Fork this repository and clone it.
 
 2) If pulling for the first time, re-install the file's dependencies using: `npm install`
 
 3) To start app, run: `npm run dev`
 
-4) Open http://localhost:5173/ in your browser to access web app. 
+4) Open the following link in your browser to access web app. 
+
+```bash
+ http://localhost:5173/
+
+```
 
 
-
+## Additional Details
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
