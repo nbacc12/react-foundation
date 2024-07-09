@@ -1,5 +1,32 @@
-# react-foundation
-This project covers fundamentals features such as react hooks for a React-based app.  The project utilizes tailwind css & headless ui. 
+# React Foundations
+This project covers the fundamental react features such as hooks & data fetching for a React-based app.  
+
+## Technology Stack
+- React.js
+- Node.js
+- Tailwind CSS
+- Headless UI
+
+## Getting Started
+
+1) Clone this repository using:
+
+```bash
+npm run dev
+
+```
+
+2) If pulling for the first time, re-install the file's dependencies using:
+
+```bash
+npm install
+
+```
+
+3) To start app, run `npm run dev`
+
+4) Open http://localhost:5173/ in your browser to access web app. 
+
 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

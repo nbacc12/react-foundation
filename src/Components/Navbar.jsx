@@ -1,8 +1,10 @@
+/* Navigation Bar */
+
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 
 import { Button } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon, ChevronDownIcon } from '@heroicons/react/24/solid'
+import { Bars3Icon, XMarkIcon, ChevronDownIcon, BookOpenIcon } from '@heroicons/react/24/solid'
 
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/react'
 
@@ -68,12 +70,15 @@ const Navbar = () => {
 
   return (
     <>
-      {/* border-gray-300 */}
+      {/* Navbar */}
       <nav className="bg-gray-100 border-gray-300 ">
 
         {/* Desktop Navigation  */}
         <div className="flex items-center justify-between mx-auto p-4">
-        <h1 className="text-2xl font-semibold"> React Foundations </h1>
+        <h1 className="text-2xl font-semibold flex flex-row"> 
+          <BookOpenIcon width={25} />
+          <span className='ml-2'> React Foundations  </span>
+        </h1>
 
         <ul className="hidden md:flex flex-row gap-4 font-semibold">
 
@@ -90,7 +95,7 @@ const Navbar = () => {
           </li>
 
           <li className={styleItem}>
-            Algorithms
+            Login
           </li>
 
         </ul>
@@ -120,7 +125,7 @@ const Navbar = () => {
           </li>
 
           <li className={styleItem}>
-            Algorithms
+            Login
           </li>
 
         </ul>}
