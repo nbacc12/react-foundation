@@ -1,5 +1,5 @@
 # React Foundations
-This project covers the fundamental react features such as hooks & data fetching for a React-based app.  
+This project covers fundamental react features such as hooks & data fetching for a React-based app.  
 
 ## Technology Stack
 - React.js
