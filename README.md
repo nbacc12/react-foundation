@@ -16,7 +16,7 @@ This project covers the fundamental react features such as hooks & data fetching
 
 3) To start app, run: `npm run dev`
 
-4) Open the following link in your browser to access web app. 
+4) Open the following link in your browser to access the web app. 
 
 ```bash
  http://localhost:5173/
