@@ -4,6 +4,7 @@ This project covers the fundamental react features such as hooks & data fetching
 ## Technology Stack
 - React.js
 - Node.js
+- Vite
 - Tailwind CSS
 - Headless UI
 
@@ -12,18 +13,15 @@ This project covers the fundamental react features such as hooks & data fetching
 1) Clone this repository using:
 
 ```bash
-npm run dev
+https://github.com/nbacc12/react-foundation.git
 
 ```
 
 2) If pulling for the first time, re-install the file's dependencies using:
 
-```bash
-npm install
+`npm install`
 
-```
-
-3) To start app, run `npm run dev`
+3) To start app, run: `npm run dev`
 
 4) Open http://localhost:5173/ in your browser to access web app. 
 
