@@ -10,7 +10,7 @@ const Fetch_axios = () => {
     useEffect(() => {
         axios.get('https://jsonplaceholder.typicode.com/photos')
         .then(res => {
-            setPhotos(res.data.slice(0,21))
+            setPhotos(res.data)
         })
         .catch(err => console.error('Data not found', err))
     }, [])
@@ -46,7 +46,7 @@ const Fetch_axios = () => {
             <h3 className='font-bold text-blue-700 m-4'> Example: Photos </h3>
 
             <div className='flex flex-wrap place-content-center mb-5'>
-            {photos.map(photo => (
+            {(photos.slice(0, 21)).map(photo => (
                 <img key={photo.id} src={photo.url} alt={photo.title} width={200}/>
             ))}
             </div>
