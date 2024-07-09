@@ -17,9 +17,7 @@ https://github.com/nbacc12/react-foundation.git
 
 ```
 
-2) If pulling for the first time, re-install the file's dependencies using:
-
-`npm install`
+2) If pulling for the first time, re-install the file's dependencies using: `npm install`
 
 3) To start app, run: `npm run dev`
 
