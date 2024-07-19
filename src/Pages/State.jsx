@@ -35,7 +35,11 @@ const State = () => {
 
         <Headerpagetitle title={'useState Page'} />
 
-        <article className="ml-4 pb-4">The 'useState' Hook allows users to track state in a function component</article>
+        <article className="flex justify-center">
+          <p className="w-5/6 ml-4 pb-4 leading-7 text-left">
+          The 'useState' Hook allows users to track state in a function component.
+          </p>
+        </article>
 
         {/* Basic useState */}
         <div className='flex flex-row gap-10 justify-center'>

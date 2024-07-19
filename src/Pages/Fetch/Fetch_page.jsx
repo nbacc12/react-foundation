@@ -17,8 +17,10 @@ const Fetch = () => {
       <div className='w-screen'>
         <Headerpagetitle title={'Fetch Data in React'} />
 
-        <article className="ml-4 pb-4">
-          Fetching Data in React from APIs can be done using the following 3 types of Methods.
+        <article className="flex justify-center">
+          <p className="w-5/6 ml-4 pb-4 leading-7 text-center">
+            Fetching Data in React from APIs can be done using the following 3 types of Methods.
+          </p>
         </article>
 
         <TabGroup>

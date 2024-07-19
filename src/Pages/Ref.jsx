@@ -22,10 +22,12 @@ const Ref = () => {
 
       <Headerpagetitle title={'useRef Page'}/>
 
-      <article className="ml-4 pb-4">
+      <article className="flex justify-center">
+      <p className="w-5/6 ml-4 pb-4 leading-7 text-left">
         The 'useRef' Hook allows you to persist values between renders. 
         It can be used to store a mutable value that does not cause a re-render when updated.
-        Not Appropriate when storing information you want to display on the screen
+        Not Appropriate when storing information you want to display on the screen.
+      </p>
       </article>
 
       <div>

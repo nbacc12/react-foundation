@@ -31,7 +31,7 @@ const Home = () => {
   ]
 
   return (
-    <div>
+    <div className='h-screen'>
 
       {/* Contains title and short description */}
       <header className='w-screen h-64 bg-teal-600 p-10 flex flex-col justify-between place-items-center'>

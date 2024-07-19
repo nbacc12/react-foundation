@@ -66,10 +66,12 @@ const Reducer = () => {
       <div className='w-screen h-screen'>
 
       <Headerpagetitle title={'useReducer Page'}/>
-
-      <article className="ml-4 pb-4">
+      
+      <article className="flex justify-center">
+        <p className="w-5/6 ml-4 pb-4 leading-7 text-left">
         The 'useReducer' Hook is used when you find yourself keeping track of multiple pieces of state that rely on complex logic. 
         Similar to 'useState' Hook.
+        </p>
       </article>
 
         <div className="flex flex-row gap-10 justify-center pb-4">

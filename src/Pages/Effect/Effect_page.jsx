@@ -19,8 +19,11 @@ const Effect = () => {
 
       <Headerpagetitle title={'useEffect Page'}/>
 
-      <article className="ml-4 pb-4">
-        The 'useEffect' Hook allows users to perform side effects in your components such as fetching data, directly updating the DOM, and timers.
+      <article className="flex justify-center">
+        <p className="w-5/6 ml-4 pb-4 leading-7 text-left">
+          The 'useEffect' Hook allows users to perform side effects in your components such as fetching data, 
+          directly updating the DOM, and timers.
+        </p>
       </article>
 
       <TabGroup>
