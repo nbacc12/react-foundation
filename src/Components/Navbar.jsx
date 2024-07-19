@@ -94,10 +94,6 @@ const Navbar = () => {
             <NavLink to='/fetch'> Fetching </NavLink>
           </li>
 
-          <li className={styleItem}>
-            Login
-          </li>
-
         </ul>
 
         {/* Mobile Menu Button - Switches between hamburger menu & close button */}
@@ -122,10 +118,6 @@ const Navbar = () => {
 
           <li className={styleItem}>
             <NavLink to='/fetch'> Fetching </NavLink>
-          </li>
-
-          <li className={styleItem}>
-            Login
           </li>
 
         </ul>}

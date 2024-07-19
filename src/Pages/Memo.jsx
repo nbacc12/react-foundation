@@ -36,9 +36,11 @@ const Memo = () => {
 
         <Headerpagetitle title={'useMemo Page'}/>
 
-        <article className="ml-4 pb-4"> 
-          The 'useMemo' hook can store the result of a function call and reuse it when the dependencies of that function haven't changed, 
-          rather than recalculating the value on every render.
+        <article className="flex justify-center">
+          <p className="w-5/6 ml-4 pb-4 leading-7 text-left">
+            The 'useMemo' hook can store the result of a function call and reuse it when the dependencies of that function haven't changed, 
+            rather than recalculating the value on every render.
+          </p>
         </article>
 
         <p>Open debugging tool to view results/behaviour</p>

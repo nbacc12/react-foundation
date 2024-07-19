@@ -32,9 +32,11 @@ const Callback = () => {
 
         <Headerpagetitle title={'useCallback Page'}/>
 
-        <article className="ml-4 pb-4"> 
-          The 'useCallback' hooks returns a memoized function. Only runs when dependents change.
-          By memoizing a function, you ensure the function remains the same and does not change unnecessarily.
+        <article className="flex justify-center">
+          <p className="w-5/6 ml-4 pb-4 leading-7 text-left">
+            The 'useCallback' hooks returns a memoized function. Only runs when dependents change.
+            By memoizing a function, you ensure the function remains the same and does not change unnecessarily.
+          </p>
         </article>
 
         <div>
